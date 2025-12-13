@@ -30,76 +30,108 @@ export const AboutSection = () => {
                     </div>
 
                     <div className="grid grid-cols-1 gap-6">
-                        <div className="gradient-border p-6 card-hover bg-blue-50">
+                        {/* Missão */}
+                        <div
+                            className="group relative
+        bg-gradient-to-br from-blue-300 to-blue-600
+        hover:from-blue-600 hover:to-blue-500
+        text-white
+        p-6
+        rounded-2xl
+        shadow-lg hover:shadow-2xl
+        transition-all duration-300
+        hover:scale-105
+        cursor-pointer"
+                        >
                             <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-blue-100">
-                                    <Flame className="h-6 text-blue-700" />
-
+                                <div className="p-3 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
+                                    <Flame className="h-6 w-6 text-white" />
                                 </div>
+
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg md:text-xl"> Missão</h4>
-                                    <p className="text-muted-foreground text-base md:text-lg">
+                                    <h4 className="font-bold text-lg md:text-xl mb-2">Missão</h4>
+                                    <p className="text-white/90 text-base md:text-lg leading-relaxed">
                                         Desenvolver e fornecer soluções de aquecimento controlado em
                                         materiais refratários, com excelência técnica e compromisso com a qualidade,
                                         contribuindo para o aumento da produtividade e segurança dos processos industriais.
                                     </p>
                                 </div>
-
                             </div>
-
                         </div>
-                        <div className="gradient-border p-6 card-hover bg-blue-50">
-                            <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-blue-100">
-                                    <Globe className="h-6 text-blue-700" />
 
+                        {/* Visão */}
+                        <div
+                            className="group relative
+        bg-gradient-to-br from-blue-300 to-blue-600
+        hover:from-blue-600 hover:to-blue-500
+        text-white
+        p-6
+        rounded-2xl
+        shadow-lg hover:shadow-2xl
+        transition-all duration-300
+        hover:scale-105
+        cursor-pointer"
+                        >
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
+                                    <Globe className="h-6 w-6 text-white" />
                                 </div>
+
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg md:text-xl"> Visão</h4>
-                                    <p className="text-muted-foreground text-base md:text-lg">
+                                    <h4 className="font-bold text-lg md:text-xl mb-2">Visão</h4>
+                                    <p className="text-white/90 text-base md:text-lg leading-relaxed">
                                         Ser referência nacional em engenharia térmica e soluções industriais
-                                        personalizadas, reconhecida pela confiabilidade, i
-                                        novação e resultados de alto desempenho.
+                                        personalizadas, reconhecida pela confiabilidade, inovação e resultados
+                                        de alto desempenho.
                                     </p>
                                 </div>
-
                             </div>
-
-
                         </div>
 
-                        <div className="gradient-border p-6 card-hover bg-blue-50">
+                        {/* Valores */}
+                        <div
+                            className="group relative
+        bg-gradient-to-br from-blue-300 to-blue-600
+        hover:from-blue-600 hover:to-blue-500
+        text-white
+        p-6
+        rounded-2xl
+        shadow-lg hover:shadow-2xl
+        transition-all duration-300
+        hover:scale-105
+        cursor-pointer"
+                        >
                             <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-blue-100">
-                                    <ShieldCheck className="h-6 text-blue-700" />
-
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg md:text-xl"> Valores</h4>
-                                    <div className="space-y-2 text-muted-foreground text-base md:text-lg">
-
-                                        <p><span className="font-semibold">Inovação:</span> buscamos continuamente novas tecnologias e aprimoramentos em nossos processos.</p>
-
-                                        <p><span className="font-semibold">Qualidade:</span> garantimos alto padrão técnico em cada etapa do projeto.</p>
-
-                                        <p><span className="font-semibold">Comprometimento:</span> priorizamos a entrega de soluções eficazes e seguras.</p>
-
-                                        <p><span className="font-semibold">Ética e Transparência:</span> atuamos com responsabilidade e respeito em todas as relações.</p>
-
-                                        <p><span className="font-semibold">Sustentabilidade:</span> promovemos práticas que reduzem impactos ambientais e otimizam o uso de energia.</p>
-
-                                        <p><span className="font-semibold">Parceria:</span> valorizamos relações duradouras com clientes, fornecedores e colaboradores.</p>
-
-                                    </div>
+                                <div className="p-3 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
+                                    <ShieldCheck className="h-6 w-6 text-white" />
                                 </div>
 
+                                <div className="text-left space-y-2">
+                                    <h4 className="font-bold text-lg md:text-xl mb-2">Valores</h4>
+
+                                    <p className="text-white/90">
+                                        <span className="font-semibold text-white">Inovação:</span> buscamos continuamente novas tecnologias.
+                                    </p>
+                                    <p className="text-white/90">
+                                        <span className="font-semibold text-white">Qualidade:</span> alto padrão técnico em cada projeto.
+                                    </p>
+                                    <p className="text-white/90">
+                                        <span className="font-semibold text-white">Comprometimento:</span> soluções eficazes e seguras.
+                                    </p>
+                                    <p className="text-white/90">
+                                        <span className="font-semibold text-white">Ética e Transparência:</span> responsabilidade em todas as relações.
+                                    </p>
+                                    <p className="text-white/90">
+                                        <span className="font-semibold text-white">Sustentabilidade:</span> redução de impactos e otimização energética.
+                                    </p>
+                                    <p className="text-white/90">
+                                        <span className="font-semibold text-white">Parceria:</span> relações duradouras.
+                                    </p>
+                                </div>
                             </div>
-
-
                         </div>
-                        
-
                     </div>
+
 
                 </div>
 

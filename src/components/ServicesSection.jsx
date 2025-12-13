@@ -1,5 +1,6 @@
 import { Award, Clock, Droplets, Factory, Flame, Gauge, Shield, Thermometer, Wind } from "lucide-react"
 
+
 const segments = [
     { icon: Factory, name: "Indústrias Vidreiras" },
     { icon: Factory, name: "Indústrias de Alumínios" },
@@ -17,185 +18,212 @@ export const ServicesSection = () => {
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-                    {/* Left column: EPIs description */}
-                    <div className="space-y-6 md:col-span-1">
-                        <h3 className="text-3xl md:text-4xl font-semibold">Ensaio Elétrico de Equipamentos de Proteção Individual</h3>
-
-                        <p className="text-foreground max-w-prose mx-0 md:mx-0 leading-relaxed text-left text-lg md:text-xl">
-                            Realizar ensaios elétricos nos Equipamentos de Proteção Individual (EPIs) é crucial para garantir
-                            a segurança dos trabalhadores, pois verifica se os equipamentos oferecem proteção adequada contra
-                            riscos elétricos como choques e arcos elétricos, conforme as normas de segurança.
-                            Esses ensaios ajudam a identificar falhas e desgastes nos EPIs, evitando acidentes
-                            e prolongando a vida útil dos equipamentos.
-                        </p>
-                    </div>
-
-                    {/* Right column: EPIs image card (stays on the right) */}
-                    <div className="md:col-span-1">
-                        <div className="gradient-border p-6 card-hover bg-blue-50">
-                            <div className="relative w-full h-64 overflow-hidden">
-                                <img
-                                    src="/cards/EPIS.png"
-                                    alt="EPIS"
-                                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
-                                />
-
-                            </div>
-
-                            <div className="p-6">
-                                <h3 className="text-2xl font-semibold">
-                                    Ensaio Elétrico em EPIs
-                                </h3>
-                                <p className="text-muted-foreground text-lg mt-2">
-                                    Segurança, confiabilidade e desempenho garantidos
-                                    por meio de testes elétricos especializados.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
                     {/* Full-width convective method card below */}
                     <div className="md:col-span-2">
-                        <div className="gradient-border p-6 card-hover bg-blue-50">
-                            <div className="text-left">
-                                <h3 className="text-3xl md:text-4xl font-semibold">Aquecimento e Secagem Controlada</h3>
+                        <div
+                            className="group relative
+        bg-gradient-to-br from-blue-300 to-blue-600
+        hover:from-blue-600 hover:to-blue-500
+        text-white
+        p-8 md:p-12
+        rounded-2xl
+        shadow-lg hover:shadow-2xl
+        transition-all duration-300
+        hover:scale-[1.02]"
+                        >
+                            <div className="flex flex-col gap-6 text-left">
 
-                                <p className="text-foreground max-w-prose mx-0 md:mx-0 leading-relaxed text-left text-lg md:text-xl">
+                                {/* Título */}
+                                <h3 className="text-3xl md:text-4xl font-bold">
+                                    Aquecimento e Secagem Controlada
+                                </h3>
+
+                                {/* Texto principal */}
+                                <p className="text-white/90 leading-relaxed text-lg md:text-xl max-w-4xl">
                                     A secagem de materiais refratários e assemelhados pelo método convectivo é um processo utilizado principalmente
                                     em indústrias como a Siderúrgica, Petroquímica, Vidreira, Fundição entre outros, para retirar a umidade de materiais
                                     ou produtos utilizando ar aquecido em movimento (convecção).
                                 </p>
 
-                                <p className="mt-4"><span className="font-semibold">1) Aquecimento do ar:</span> O ar é aquecido por uma fonte de calor (queimadores a gás de alta performance).</p>
+                                {/* Etapas */}
+                                <div className="space-y-2 text-lg text-white/90">
+                                    <p><span className="font-semibold text-white">1) Aquecimento do ar:</span> O ar é aquecido por uma fonte de calor (queimadores a gás de alta performance).</p>
 
-                                <p><span className="font-semibold">2) Movimentação do ar quente:</span> Esse ar quente é forçado a circular dentro do forno, por nosso equipamento de alta performance.</p>
+                                    <p><span className="font-semibold text-white">2) Movimentação do ar quente:</span> Esse ar quente é forçado a circular dentro do forno, por nosso equipamento de alta performance.</p>
 
-                                <p><span className="font-semibold">3) Contato com o material úmido:</span> O ar entra em contato com a superfície do material,
-                                    aquecendo-o e promovendo a evaporação da água gradativamente em conformidade com o ciclo térmico.</p>
+                                    <p><span className="font-semibold text-white">3) Contato com o material úmido:</span> O ar entra em contato com a superfície do material, aquecendo-o e promovendo a evaporação da água gradativamente.</p>
 
-                                <p><span className="font-semibold">4) Remoção da umidade:</span>  O vapor gerado é transferido pelo fluxo de ar da face quente para a face fria e eliminado da unidade aquecida.</p>
+                                    <p><span className="font-semibold text-white">4) Remoção da umidade:</span> O vapor gerado é transferido pelo fluxo de ar da face quente para a face fria e eliminado da unidade aquecida.</p>
+                                </div>
 
-                                <h4 className="text-2xl font-semibold mt-6">Vantagens do método convectivo: </h4>
-                                <ul className="list-disc pl-6 space-y-2 text-lg leading-relaxed">
-                                    <li>
-                                        Homogeneidade de um ciclo térmico, devido à performance do nosso equipamento.
-                                    </li>
-                                    <li>
-                                        Custo operacional moderado, comparado a outros métodos como radiação ou micro-ondas.
-                                    </li>
-                                </ul>
+                                {/* Vantagens */}
+                                <div>
+                                    <h4 className="text-2xl font-bold mb-3">
+                                        Vantagens do método convectivo
+                                    </h4>
+
+                                    <ul className="space-y-2 text-lg font-bold">
+                                        <li>• Homogeneidade do ciclo térmico</li>
+                                        <li>• Custo operacional moderado</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="container mx-auto max-w-5xl">
-                        <h2 className="text-5xl md:text-6xl font-bold mb-12 text-center whitespace-nowrap">
-                            Tratamento Térmico <span className="text-blue-700">Especializado</span>
-
-                        </h2>
-
-                        <div className="grid grid-cols-1 gap-6">
-                            <div className="gradient-border p-6 card-hover bg-blue-50">
-                                <div className="flex items-start gap-4">
-                                    <div className="p-3 rounded-full bg-blue-100">
-                                        <Flame className="h-6 text-blue-700" />
-                                    </div>
-
-                                    <div className="text-left">
-                                        <h1 className="font-bold text-xl md:text-2xl mb-4">Secagem Convectiva</h1>
-
-                                        <p className="text-muted-foreground text-base md:text-lg mb-4">
-                                            Processo de secagem controlada utilizando técnica convectiva
-                                            para remoção eficiente de água livre e de estrutura dos refratários.
-                                        </p>
-
-                                        <ul className="space-y-2 text-lg text-blue-700">
-                                            <li>• Remoção total da água</li>
-                                            <li>• Pressão interna controlada</li>
-                                            <li>• Chama oxidante azulada</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="gradient-border p-6 card-hover bg-blue-50">
-                                <div className="flex items-start gap-4">
-                                    <div className="p-3 rounded-full bg-blue-100">
-                                        <Thermometer className="h-6 text-blue-700" />
-                                    </div>
-
-                                    <div className="text-left">
-                                        <h1 className="font-bold text-xl md:text-2xl mb-4">Aquecimento Controlado</h1>
-
-                                        <p className="text-muted-foreground text-base md:text-lg mb-4">
-                                            Aquecimento preciso com alta modulação (1:1000) para garantir
-                                            homogeneidade térmica em todo o equipamento.
-                                        </p>
-
-                                        <ul className="space-y-2 text-lg text-blue-700">
-                                            <li>• Temperatura ambiente até 1370ºC</li>
-                                            <li>• Alta controlabilidade</li>
-                                            <li>• Distribuição homogêneaa</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="gradient-border p-6 card-hover bg-blue-50">
-                                <div className="flex items-start gap-4">
-                                    <div className="p-3 rounded-full bg-blue-100">
-                                        <Wind className="h-6 text-blue-700" />
-                                    </div>
-
-                                    <div className="text-left">
-                                        <h1 className="font-bold text-xl md:text-2xl mb-4">Resfriamento Controlado</h1>
-
-                                        <p className="text-muted-foreground text-base md:text-lg mb-4">
-                                            Processo de resfriamento gradual e controlado para preservar
-                                            a integridade estrutural dos materiais refratários.
-                                        </p>
-
-                                        <ul className="space-y-2 text-lg text-blue-700">
-                                            <li>• Processo gradual</li>
-                                            <li>• Preserva integridade</li>
-                                            <li>• Evita choque térmico</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="gradient-border p-6 card-hover bg-blue-50">
-                                <div className="flex items-start gap-4">
-                                    <div className="p-3 rounded-full bg-blue-100">
-                                        <Gauge className="h-6 text-blue-700" />
-                                    </div>
-
-                                    <div className="text-left">
-                                        <h1 className="font-bold text-xl md:text-2xl mb-4">Manutenção de Temperatura</h1>
-
-                                        <p className="text-muted-foreground text-base md:text-lg mb-4">
-                                            Controle preciso para manutenção de temperatura em ambientes
-                                            industriais durante todo o processo.
-                                        </p>
-
-                                        <ul className="space-y-2 text-lg text-blue-700">
-                                            <li>• Controle 24/7</li>
-                                            <li>• Monitoramento digital</li>
-                                            <li>• Registro de dados</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                    </div>
 
 
                 </div>
 
             </div>
+
+            <section id="experiencia" className="relative
+            left-1/2 right-1/2
+            -ml-[50vw] -mr-[50vw]
+            w-screen
+            mt-24
+            py-20
+            bg-white text-gray-900
+            overflow-hidden">
+
+                <div className="absolute inset-0 opacity-10">
+                    <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full blur-3xl" />
+                    <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl" />
+
+
+                </div>
+
+                <div className="container mx-auto px-4 relative z-10">
+                    <div className="max-w-5xl mx-auto">
+                        <div className="text-center mb-12">
+                            <h2 className="
+                            text-5xl md:text-6xl font-bold mb-12 text-center
+                            whitespace-normal md:whitespace-nowrap
+                        ">
+                                Tratamento Térmico{" "}
+                                <span className="block md:inline text-blue-700">
+                                    Especializado
+                                </span>
+                            </h2>
+
+                            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-10 w-full">
+                                <a
+                                    className="group relative bg-gradient-to-br from-blue-300 to-blue-600
+                                     hover:from-blue-600 hover:to-blue-500 text-white p-8 rounded-2xl 
+                                      shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105
+                                      cursor-pointer"
+                                >
+                                    <div className="flex flex-col items-center text-center space-y-4">
+                                        <div className="p-4 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
+                                            <Flame className="h-8 w-8" />
+                                        </div>
+                                        <div>
+                                            <h3 className="font-bold text-xl mb-2">Secagem Convectiva</h3>
+                                            <p className="text-white/90 font-medium text-lg">Processo de secagem controlada utilizando técnica convectiva
+                                                para remoção eficiente de água livre e de estrutura dos refratários.</p>
+
+                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white">
+                                                <li>• Remoção total da água</li>
+                                                <li>• Pressão interna controlada</li>
+                                                <li>• Chama oxidante azulada</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </a>
+
+                                <a
+                                    className="group relative bg-gradient-to-br from-blue-300 to-blue-600
+                                     hover:from-blue-600 hover:to-blue-500 text-white p-8 rounded-2xl 
+                                      shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105
+                                      cursor-pointer"
+                                >
+                                    <div className="flex flex-col items-center text-center space-y-4">
+                                        <div className="p-4 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
+                                            <Thermometer className="h-8 w-8" />
+                                        </div>
+                                        <div>
+                                            <h3 className="font-bold text-xl mb-2">Aquecimento Controlado</h3>
+                                            <p className="text-white/90 font-medium text-lg">
+                                                Aquecimento preciso com alta modulação (1:1000) para garantir homogeneidade térmica em todo o equipamento.
+                                            </p>
+
+                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white">
+                                                <li>• Temperatura ambiente até 1370ºC</li>
+                                                <li>• Alta controlabilidade</li>
+                                                <li>• Distribuição homogênea</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </a>
+
+                                <a
+                                    className="group relative bg-gradient-to-br from-blue-300 to-blue-600
+                                     hover:from-blue-600 hover:to-blue-500 text-white p-8 rounded-2xl 
+                                      shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105
+                                      cursor-pointer"
+                                >
+                                    <div className="flex flex-col items-center text-center space-y-4">
+                                        <div className="p-4 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
+                                            <Wind className="h-8 w-8" />
+                                        </div>
+                                        <div>
+                                            <h3 className="font-bold text-xl mb-2">Resfriamento Controlado</h3>
+                                            <p className="text-white/90 font-medium text-lg">
+                                                Processo de resfriamento gradual e controlado para preservar a integridade estrutural dos materiais refratários.
+                                            </p>
+
+                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white">
+                                                <li>• Processo gradual</li>
+                                                <li>• Preserva integridade</li>
+                                                <li>• Evita choque térmico</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </a>
+
+                                <a
+                                    className="group relative bg-gradient-to-br from-blue-300 to-blue-600
+                                     hover:from-blue-600 hover:to-blue-500 text-white p-8 rounded-2xl 
+                                      shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105
+                                      cursor-pointer"
+                                >
+                                    <div className="flex flex-col items-center text-center space-y-4">
+                                        <div className="p-4 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
+                                            < Gauge className="h-8 w-8" />
+                                        </div>
+                                        <div>
+                                            <h3 className="font-bold text-xl mb-2">Manutenção de Temperatura</h3>
+                                            <p className="text-white/90 font-medium text-lg">
+                                                Controle preciso para manutenção de temperatura em ambientes industriais durante todo o processo.
+                                            </p>
+
+                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white">
+                                                <li>• Controle 24/7</li>
+                                                <li>• Monitoramento digital</li>
+                                                <li>• Registro de dados</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
 
             <section id="experiencia" className="relative
             left-1/2 right-1/2
@@ -225,7 +253,7 @@ export const ServicesSection = () => {
                         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-10 w-full">
 
                             <a
-                                className="group relative bg-gradient-to-br from-blue-50 to-blue-600
+                                className="group relative bg-gradient-to-br from-blue-300 to-blue-600
                         hover:from-blue-600 hover:to-blue-500 text-white p-8 rounded-2xl 
                         shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105
                         cursor-pointer"
@@ -235,7 +263,7 @@ export const ServicesSection = () => {
                                         < Droplets className="h-8 w-8" />
                                     </div>
                                     <div>
-                                        <h3 className="font-bols text-xl mb-2">Qualidade</h3>
+                                        <h3 className="font-bold text-xl mb-2">Qualidade</h3>
                                         <p className="text-white/90 font-medium text-lg">Manutenção da integridade do equipamento</p>
                                     </div>
 
@@ -245,7 +273,7 @@ export const ServicesSection = () => {
 
                             <a
 
-                                className="group relative bg-gradient-to-br from-blue-50 to-blue-600
+                                className="group relative bg-gradient-to-br from-blue-300 to-blue-600
                         hover:from-blue-600 hover:to-blue-500 text-white p-6 md:p-8 
                         rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 
                         hover:scale-105 cursor-pointer w-full max-w-sm mx-auto"
@@ -266,7 +294,7 @@ export const ServicesSection = () => {
 
 
                             <a
-                                className="group relative bg-gradient-to-br from-blue-50 to-blue-600
+                                className="group relative bg-gradient-to-br from-blue-300 to-blue-600
                        hover:from-blue-600 hover:to-blue-500 text-white p-6 md:p-8 
                         rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 
                         hover:scale-105 cursor-pointer w-full max-w-sm mx-auto"
@@ -286,7 +314,7 @@ export const ServicesSection = () => {
                             </a>
 
                             <a
-                                className="group relative bg-gradient-to-br from-blue-50 to-blue-600
+                                className="group relative bg-gradient-to-br from-blue-300 to-blue-600
                        hover:from-blue-600 hover:to-blue-500 text-white p-6 md:p-8 
                         rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 
                         hover:scale-105 cursor-pointer w-full max-w-sm mx-auto"
@@ -318,10 +346,16 @@ export const ServicesSection = () => {
                         <span className="text-blue-700 font-semibold tracking-wider uppercase text-base md:text-lg">
                             Segmentos Atendidos
                         </span>
-                        <h2 className="text-5xl md:text-6xl font-bold mb-12 text-center whitespace-nowrap">
-                            Atendemos Diversas <span className="text-blue-700">Indústrias</span>
-
+                        <h2 className="
+                            text-5xl md:text-6xl font-bold mb-12 text-center
+                            whitespace-normal md:whitespace-nowrap
+                        ">
+                            Atendemos Diversar{" "}
+                            <span className="block md:inline text-blue-700">
+                                Indústrias
+                            </span>
                         </h2>
+
                     </div>
 
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
@@ -329,7 +363,7 @@ export const ServicesSection = () => {
                             <div
                                 key={segment.name}
                                 className="group relative
-                                bg-gradient-to-br from-blue-50 to-blue-600
+                                bg-gradient-to-br from-blue-300 to-blue-600
                               hover:from-blue-600 hover:to-blue-500
                              text-white
                                p-6 md:p-8
@@ -370,10 +404,16 @@ export const ServicesSection = () => {
                         <span className="text-white font-semibold tracking-wider uppercase text-base md:text-lg">
                             Clientes de Destaque
                         </span>
-                        <h2 className="text-5xl md:text-6xl font-bold mb-12 text-center whitespace-nowrap">
-                            Experiência em Grandes Projetos
-
+                        <h2 className="
+                            text-5xl md:text-6xl font-bold mb-12 text-center
+                            whitespace-normal md:whitespace-nowrap
+                        ">
+                            Experiência em {" "}
+                            <span className="block md:inline text-white">
+                                Grandes Projetos
+                            </span>
                         </h2>
+
                         <p className="text-2xl md:text-2xl text-white/90 max-w-3xl mx-auto text-pretty">
                             Profissionais com vasto conhecimento, à frente de diversas obras em todo território nacional e internacional
                         </p>
@@ -381,16 +421,26 @@ export const ServicesSection = () => {
                     <div className="flex flex-wrap justify-center gap-4">
                         <div className="flex flex-wrap justify-center gap-4">
                             {[
-                                "Petrobras", "Vale", "CSN", "Usiminas", "Gerdau", "ArcelorMittal",
-                                "Alcoa", "Novelis", "Klabin", "Braskem", "Anglo American", "Alumar"
+                                "Projetos Siderúrgicos",
+                                "Plantas Petroquímicas",
+                                "Complexos Industriais",
+                                "Unidades de Mineração",
+                                "Indústrias de Base",
+                                "Plantas Vidreiras",
+                                "Parques Metalúrgicos",
+                                "Indústrias Cimenteiras",
+                                "Operações de Alta Temperatura",
+                                "Projetos Turn-Key",
+                                "Ambientes Críticos",
+                                "Processos Contínuos"
                             ].map((client) => (
                                 <div
                                     key={client}
-                                     className="group relative
+                                    className="group relative
                                         px-6 py-3
                                         rounded-full
                                         cursor-pointer
-                                        bg-gradient-to-br from-blue-50 to-blue-600
+                                        bg-gradient-to-br from-blue-300 to-blue-600
                                       hover:from-blue-600 hover:to-blue-500
                                       text-white
                                         shadow-md hover:shadow-xl

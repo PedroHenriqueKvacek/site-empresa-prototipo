@@ -26,7 +26,7 @@ export const ContactSection = () => {
                         href="https://wa.me/5512992338065"
                         target="_blank"
                         rel="noopener noreferrr"
-                        className="group relative bg-gradient-to-br from-blue-50 to-blue-600
+                        className="group relative bg-gradient-to-br from-blue-300 to-blue-600
                         hover:from-blue-600 hover:to-blue-500 text-white p-8 rounded-2xl 
                         shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105
                         cursor-pointer"
@@ -47,7 +47,7 @@ export const ContactSection = () => {
                     {/* Email Button */}
                     <a
                         href="mailto:laiyssa.comercial@wmsolucoesindustriais.com.br"
-                        className="group relative bg-gradient-to-br from-blue-50 to-blue-600
+                        className="group relative bg-gradient-to-br from-blue-300 to-blue-600
                         hover:from-blue-600 hover:to-blue-500 text-white p-6 md:p-8 
                         rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 
                         hover:scale-105 cursor-pointer w-full max-w-sm mx-auto"
@@ -71,7 +71,7 @@ export const ContactSection = () => {
                         href="https://www.google.com/maps/search/?api=1&query=Rua+Braunas+41+Bairro+Floresta+Coronel+Fabriciano+MG"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group relative bg-gradient-to-br from-blue-50 to-blue-600
+                        className="group relative bg-gradient-to-br from-blue-300 to-blue-600
                        hover:from-blue-600 hover:to-blue-500 text-white p-6 md:p-8 
                         rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 
                         hover:scale-105 cursor-pointer w-full max-w-sm mx-auto"
