@@ -24,7 +24,7 @@ export const Servicos = () => {
                     <div className="absolute inset-0 flex items-center justify-center px-4">
                         <div className="text-white text-center">
                             <h1 className="text-4xl md:text-6xl font-bold leading-tight drop-shadow-lg">
-                                Conheça todos nosso Serviços
+                                Conheça todos nossos Serviços
                             </h1>
                             <p className="mt-4 text-lg md:text-2xl text-white/90 drop-shadow text-center">
                                 Oferecemos soluções completas em serviços industriais,<br />

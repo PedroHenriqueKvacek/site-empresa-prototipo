@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import { Link } from "react-router-dom";
 
 const navItems = [
-    { name: "Home", href: "/#hero" },
+    { name: "Início", href: "/#hero" },
     { name: "Sobre", href: "/#sobre" },
     { name: "Nossos Serviços", href: "/servicos" },
     { name: "Contato", href: "#contato" },
@@ -30,7 +30,7 @@ export const Navbar = () => {
 
             <div className="container flex items-center justify-between px-0 h-full">
                 <a href="#" className="flex items-center ml-0 h-full mr-3">
-                    <img src="/logo2.png" alt="Logo" className="h-34 w-auto object-contain" />
+                    <img src="/logonova.png" alt="Logo" className="h-34 w-auto object-contain" />
                 </a>
 
                 {/*  Menu Desktop */}

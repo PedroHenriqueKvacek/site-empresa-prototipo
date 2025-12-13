@@ -33,19 +33,26 @@ export const HeroSection = () => {
                 {/* BOTÕES DE NAVEGAÇÃO */}
                 <button
                     onClick={prevSlide}
-                    className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-20 p-3 rounded-full bg-white/20 hover:bg-white/40 text-white transition-all duration-300 backdrop-blur-sm"
+                    className="absolute left-4 md:left-8 
+                    top-[65%] md:top-1/2 
+                    -translate-y-1/2 z-20 
+                   text-white transition-all duration-300 hover:text-blue-500 hover:scale-110"
                     aria-label="Slide anterior"
                 >
-                    <ChevronLeft className="w-6 h-6 md:w-8 md:h-8" />
+                    <ChevronLeft className="w-7 h-7 md:w-10 md:h-10" />
                 </button>
 
                 <button
                     onClick={nextSlide}
-                    className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-20 p-3 rounded-full bg-white/20 hover:bg-white/40 text-white transition-all duration-300 backdrop-blur-sm"
+                    className="absolute right-4 md:right-8 
+                    top-[65%] md:top-1/2 
+                    -translate-y-1/2 z-20 
+                   text-white transition-all duration-300 hover:text-blue-500 hover:scale-110"
                     aria-label="Próximo slide"
                 >
-                    <ChevronRight className="w-6 h-6 md:w-8 md:h-8" />
+                    <ChevronRight className="w-7 h-7 md:w-10 md:h-10" />
                 </button>
+
 
                 {/* CONTEÚDO CENTRAL */}
                 <div className="absolute inset-0 flex items-center justify-center px-4 z-10">
