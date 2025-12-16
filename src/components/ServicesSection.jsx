@@ -23,14 +23,14 @@ export const ServicesSection = () => {
                     <div className="md:col-span-2">
                         <div
                             className="group relative
-        bg-gradient-to-br from-blue-300 to-blue-600
-        hover:from-blue-600 hover:to-blue-500
-        text-white
-        p-8 md:p-12
-        rounded-2xl
-        shadow-lg hover:shadow-2xl
-        transition-all duration-300
-        hover:scale-[1.02]"
+                            bg-gradient-to-br from-blue-300 to-blue-600
+                            hover:from-blue-600 hover:to-blue-500
+                            text-white
+                            p-8 md:p-12
+                            rounded-2xl
+                            shadow-lg hover:shadow-2xl
+                            transition-all duration-300
+                            hover:scale-[1.02]"
                         >
                             <div className="flex flex-col gap-6 text-left">
 
@@ -350,7 +350,7 @@ export const ServicesSection = () => {
                             text-5xl md:text-6xl font-bold mb-12 text-center
                             whitespace-normal md:whitespace-nowrap
                         ">
-                            Atendemos Diversar{" "}
+                            Atendemos Diversas{" "}
                             <span className="block md:inline text-blue-700">
                                 Indústrias
                             </span>

@@ -85,7 +85,7 @@ export const HeroSection = () => {
                             <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg">Mais de 20 Anos de</h1>
                             <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg">Experiência Industrial</h1>
                             <p className="mt-4 text-lg md:text-2xl text-white/90 drop-shadow">
-                                Duas décadas de excelência e inovação<br />
+                                Profissionais com mais de duas décadas de excelência e inovação<br />
                                 atendendo as indústrias mais exigentes do mercado.
                             </p>
                         </div>

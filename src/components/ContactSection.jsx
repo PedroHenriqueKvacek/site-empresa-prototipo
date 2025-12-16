@@ -46,7 +46,7 @@ export const ContactSection = () => {
 
                     {/* Email Button */}
                     <a
-                        href="mailto:laiyssa.comercial@wmsolucoesindustriais.com.br"
+                        href="mailto:laiyssa.comercial@wmsolucoesindustriail.com.br"
                         className="group relative bg-gradient-to-br from-blue-300 to-blue-600
                         hover:from-blue-600 hover:to-blue-500 text-white p-6 md:p-8 
                         rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 
@@ -59,7 +59,7 @@ export const ContactSection = () => {
                             <div className="w-full">
                                 <h3 className="font-bold text-xl mb-2 truncate">E-mail</h3>
                                 <p className="text-white/90 font-medium text-sm md:text-base break-all">
-                                    laiyssa.comercial@wmsolucoesindustriais.com.br
+                                    laiyssa.comercial@wmsolucoesindustriail.com.br
                                 </p>
                                 <p className="text-white/80 text-sm mt-2">Clique para enviar e-mail</p>
                             </div>
