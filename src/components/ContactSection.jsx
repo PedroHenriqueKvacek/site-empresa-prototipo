@@ -59,7 +59,7 @@ export const ContactSection = () => {
                             <div className="w-full">
                                 <h3 className="font-bold text-xl mb-2 truncate">E-mail</h3>
                                 <p className="text-white/90 font-medium text-sm md:text-base break-all">
-                                    laiyssa.comercial@wmsolucoesindustriail.com.br
+                                    laiyssa.comercial@wmsolucoesindustrial.com.br
                                 </p>
                                 <p className="text-white/80 text-sm mt-2">Clique para enviar e-mail</p>
                             </div>
