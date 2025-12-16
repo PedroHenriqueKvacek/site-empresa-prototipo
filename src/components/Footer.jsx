@@ -15,7 +15,10 @@ export const Footer = () => {
     }
 
     return (
-        <footer className="py-12 px-4 bg-blue-50 relative border-t border-border mt-12 pt-8 flex flex-wrap justify-between items-center">
+        <footer className="py-12 px-4 bg-blue-50 relative border-t border-border mt-12 pt-8 flex flex-wrap justify-between items-center gap-6">
+            <div>
+                <img src="/logonova.png" alt="Logo WMS Soluções Industrial" className="h-16 w-auto" />
+            </div>
             <p className="text-sm text-muted-foreground">
                 &copy; {new Date().getFullYear()} wmsolucoesindustrial. Todos os direitos reservados.
             </p>

@@ -55,7 +55,10 @@ export const ExperienceSection = () => {
                                     <div>
                                         <h4 className="font-semibold text-lg md:text-xl">Mentoria e Capacitação</h4>
                                         <p className="text-base md:text-lg text-white/80 leading-relaxed">
-                                            Profissionais seniores que formam e capacitam as novas gerações de engenheiros
+                                            Contamos com equipamentos de combustão modernos, eficientes e seguros, 
+                                            cuja construção está em conformidade na norma NBR 12313. Com um corpo técnico 
+                                            seguro e eficiente, mostramos o nosso diferencial que é fazer sempre o 
+                                            melhor, com técnica com qualidade e segurança.
                                         </p>
                                     </div>
                                 </div>

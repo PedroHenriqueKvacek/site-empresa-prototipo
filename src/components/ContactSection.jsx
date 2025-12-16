@@ -83,7 +83,7 @@ export const ContactSection = () => {
                             </div>
                         </div>
                         <div>
-                            <h3 className="font-bold text-xl mb-2">LOcalização</h3>
+                            <h3 className="font-bold text-xl mb-2">Localização</h3>
                             <p className="text-white/90 font-medium text-sm">
                                 Rua Braunas, 41
                                 <br />
@@ -94,51 +94,6 @@ export const ContactSection = () => {
                             <p className="text-white/80 text-sm mt-2">Clique para ver o mapa</p>
                         </div>
                     </a>
-
-                </div>
-
-                {/* Social Media Links */}
-                <div className="text-center">
-                    <h4 className="font-semibold mb-6 text-lg">Conecte-se com a Empresa</h4>
-                    <div className="flex space-x-6 justify-center">
-                        <a
-                            href="#"
-                            target="_blank"
-                            className="p-3 rounded-full bg-blue-100 hover:bg-blue-700
-                          hover:text-white transition-all duration-300 hover:scale-110"
-                            rel="noreferrer"
-                        >
-                            <Linkedin className="h-6 w-6" />
-                        </a>
-                        <a
-                            href="#"
-                            target="_blank"
-                            className="p-3 rounded-full bg-blue-100 hover:bg-blue-700
-                          hover:text-white transition-all duration-300 hover:scale-110"
-                            rel="noreferrer"
-                        >
-                            <X className="h-6 w-6" />
-                        </a>
-                        <a
-                            href="#"
-                            target="_blank"
-                            className="p-3 rounded-full bg-blue-100 hover:bg-blue-700
-                          hover:text-white transition-all duration-300 hover:scale-110"
-                            rel="noreferrer"
-                        >
-                            <Facebook className="h-6 w-6" />
-                        </a>
-                        <a
-                            href="#"
-                            target="_blank"
-                            className="p-3 rounded-full bg-blue-100 hover:bg-blue-700
-                          hover:text-white transition-all duration-300 hover:scale-110"
-                            rel="noreferrer"
-                        >
-                            <Instagram className="h-6 w-6" />
-                        </a>
-
-                    </div>
 
                 </div>
             </div>
