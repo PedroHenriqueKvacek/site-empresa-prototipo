@@ -53,7 +53,7 @@ export const ExperienceSection = () => {
                                 <div className="flex gap-4">
                                     <div className="flex-shrink-0 w-2 h-2 rounded-full bg-white mt-2" />
                                     <div>
-                                        <h4 className="font-semibold text-lg md:text-xl">Mentoria e Capacitação</h4>
+                                        <h4 className="font-semibold text-lg md:text-xl">Conformidade com as Normas</h4>
                                         <p className="text-base md:text-lg text-white/80 leading-relaxed">
                                             Contamos com equipamentos de combustão modernos, eficientes e seguros, 
                                             cuja construção está em conformidade na norma NBR 12313. Com um corpo técnico 
