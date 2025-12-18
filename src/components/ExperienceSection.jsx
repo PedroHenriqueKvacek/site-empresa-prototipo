@@ -22,7 +22,7 @@ export const ExperienceSection = () => {
                         <p className="text-2xl md:text-2xl text-white/90 max-w-3xl mx-auto text-pretty">
                             Nossa equipe conta com profissionais altamente qualificados,
                             com mais de duas décadas de experiência em
-                            engenharia térmica e soluções industriais
+                            tratamento termico e soluções industriais
                         </p>
                     </div>
                     <div className="gradient-border card-hover bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20">
@@ -33,10 +33,12 @@ export const ExperienceSection = () => {
                                     <div className="flex-shrink-0 w-2 h-2 rounded-full bg-white mt-2" />
                                     <div>
                                         <h4 className="font-semibold text-lg md:text-xl">Conhecimento Profundo do Setor</h4>
-                                        <p className="text-base md:text-lg text-white/80 leading-relaxed">
+                                        <p className="text-base md:text-lg text-white/80 leading-relaxed text-left">
                                             Nossa equipe vivenciou a evolução das tecnologias industriais,
                                             trazendo insights valiosos para cada
-                                            projeto
+                                            projeto. Com um corpo técnico seguro e eficiente, mostramos o
+                                            nosso diferencial que é fazer sempre o melhor, com técnica com
+                                            qualidade e segurança
                                         </p>
                                     </div>
                                 </div>
@@ -45,7 +47,7 @@ export const ExperienceSection = () => {
                                     <div className="flex-shrink-0 w-2 h-2 rounded-full bg-white mt-2" />
                                     <div>
                                         <h4 className="font-semibold text-lg md:text-xl">Soluções Testadas e Comprovadas</h4>
-                                        <p className="text-base md:text-lg text-white/80 leading-relaxed">
+                                        <p className="text-base md:text-lg text-white/80 leading-relaxed text-left">
                                             Metodologias desenvolvidas e aperfeiçoadas ao longo de décadas de atuação no mercado
                                         </p>
                                     </div>
@@ -54,11 +56,9 @@ export const ExperienceSection = () => {
                                     <div className="flex-shrink-0 w-2 h-2 rounded-full bg-white mt-2" />
                                     <div>
                                         <h4 className="font-semibold text-lg md:text-xl">Conformidade com as Normas</h4>
-                                        <p className="text-base md:text-lg text-white/80 leading-relaxed">
-                                            Contamos com equipamentos de combustão modernos, eficientes e seguros, 
-                                            cuja construção está em conformidade na norma NBR 12313. Com um corpo técnico 
-                                            seguro e eficiente, mostramos o nosso diferencial que é fazer sempre o 
-                                            melhor, com técnica com qualidade e segurança.
+                                        <p className="text-base md:text-lg text-white/80 leading-relaxed text-left">
+                                            Contamos com equipamentos de combustão modernos, eficientes e seguros,
+                                            cuja construção está em conformidade na norma NBR 12313.
                                         </p>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ export const ExperienceSection = () => {
                                     <div className="flex-shrink-0 w-2 h-2 rounded-full bg-white mt-2" />
                                     <div>
                                         <h4 className="font-semibold mb-2 text-lg md:text-xl">Relacionamento de Longo Prazo</h4>
-                                        <p className="text-base md:text-lg text-white/80 leading-relaxed">
+                                        <p className="text-base md:text-lg text-white/80 leading-relaxed text-left">
                                             Parcerias duradouras construídas com base em confiança e resultados consistentes
                                         </p>
                                     </div>

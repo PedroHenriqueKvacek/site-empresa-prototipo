@@ -41,8 +41,8 @@ export const ServicesSection = () => {
 
                                 {/* Texto principal */}
                                 <p className="text-white/90 leading-relaxed text-lg md:text-xl max-w-4xl">
-                                    A secagem de materiais refratários e assemelhados pelo método convectivo é um processo utilizado principalmente
-                                    em indústrias como a Siderúrgica, Petroquímica, Vidreira, Fundição entre outros, para retirar a umidade de materiais
+                                    A secagem de materiais refratários e assemelhados pelo método convectivo é um processo utilizado em vários seguimentos
+                                    indústrias como: a Siderúrgica, Petroquímica, Vidreira, Fundição entre outros, para retirar a umidade de materiais
                                     ou produtos utilizando ar aquecido em movimento (convecção).
                                 </p>
 
@@ -50,7 +50,7 @@ export const ServicesSection = () => {
                                 <div className="space-y-2 text-lg text-white/90">
                                     <p><span className="font-semibold text-white">1) Aquecimento do ar:</span> O ar é aquecido por uma fonte de calor (queimadores a gás de alta performance).</p>
 
-                                    <p><span className="font-semibold text-white">2) Movimentação do ar quente:</span> Esse ar quente é forçado a circular dentro do forno, por nosso equipamento de alta performance.</p>
+                                    <p><span className="font-semibold text-white">2) Movimentação do ar quente:</span> Esse ar quente é forçado a circular dentro da unidade a ser tratada, por nosso equipamento de alta performance.</p>
 
                                     <p><span className="font-semibold text-white">3) Contato com o material úmido:</span> O ar entra em contato com a superfície do material, aquecendo-o e promovendo a evaporação da água gradativamente.</p>
 
@@ -119,11 +119,11 @@ export const ServicesSection = () => {
                                             <Flame className="h-8 w-8" />
                                         </div>
                                         <div>
-                                            <h3 className="font-bold text-xl mb-2">Secagem Convectiva</h3>
-                                            <p className="text-white/90 font-medium text-lg">Processo de secagem controlada utilizando técnica convectiva
-                                                para remoção eficiente de água livre e de estrutura dos refratários.</p>
+                                            <h3 className="font-bold text-xl mb-2">Secagem Controlada</h3>
+                                            <p className="text-white/90 font-medium text-lg text-left">Processo de secagem controlada utilizando técnica convectiva
+                                                para remoção eficiente de água livre e água quimicamente ligada estrutura dos refratários.</p>
 
-                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white">
+                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white text-left">
                                                 <li>• Remoção total da água</li>
                                                 <li>• Pressão interna controlada</li>
                                                 <li>• Chama oxidante azulada</li>
@@ -146,12 +146,11 @@ export const ServicesSection = () => {
                                         </div>
                                         <div>
                                             <h3 className="font-bold text-xl mb-2">Aquecimento Controlado</h3>
-                                            <p className="text-white/90 font-medium text-lg">
+                                            <p className="text-white/90 font-medium text-lg text-left">
                                                 Aquecimento preciso com alta modulação (1:1000) para garantir homogeneidade térmica em todo o equipamento.
                                             </p>
 
-                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white">
-                                                <li>• Temperatura ambiente até 1370ºC</li>
+                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white text-left">
                                                 <li>• Alta controlabilidade</li>
                                                 <li>• Distribuição homogênea</li>
                                             </ul>
@@ -173,11 +172,11 @@ export const ServicesSection = () => {
                                         </div>
                                         <div>
                                             <h3 className="font-bold text-xl mb-2">Resfriamento Controlado</h3>
-                                            <p className="text-white/90 font-medium text-lg">
+                                            <p className="text-white/90 font-medium text-lg text-left">
                                                 Processo de resfriamento gradual e controlado para preservar a integridade estrutural dos materiais refratários.
                                             </p>
 
-                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white">
+                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white text-left">
                                                 <li>• Processo gradual</li>
                                                 <li>• Preserva integridade</li>
                                                 <li>• Evita choque térmico</li>
@@ -200,11 +199,11 @@ export const ServicesSection = () => {
                                         </div>
                                         <div>
                                             <h3 className="font-bold text-xl mb-2">Manutenção de Temperatura</h3>
-                                            <p className="text-white/90 font-medium text-lg">
+                                            <p className="text-white/90 font-medium text-lg text-left">
                                                 Controle preciso para manutenção de temperatura em ambientes industriais durante todo o processo.
                                             </p>
 
-                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white">
+                                            <ul className="mt-6 font-bold space-y-2 text-lg text-white text-left">
                                                 <li>• Controle 24/7</li>
                                                 <li>• Monitoramento digital</li>
                                                 <li>• Registro de dados</li>
@@ -214,13 +213,136 @@ export const ServicesSection = () => {
                                     </div>
 
                                 </a>
+                            </div>
+                            <div className="flex justify-center text-center gap-2">
+                                <h3 className="text-3xl md:text-4xl font-bold">
+                                    Conforto <span className="text-blue-700">Térmico</span>
+                                </h3>
 
+                            </div>
+
+                            <div
+                                className="group relative mt-4
+                                    bg-gradient-to-br from-blue-300 to-blue-600
+                                    hover:from-blue-600 hover:to-blue-500
+                                    text-white
+                                    p-8 md:p-12
+                                    rounded-2xl
+                                    shadow-lg hover:shadow-2xl
+                                    transition-all duration-300
+                                    hover:scale-[1.02]"
+                            >
+
+                                <p className="text-white/90 leading-relaxed text-lg md:text-xl max-w-4xl text-left">
+                                    O conforto térmico  é tratado como uma prioridade crítica de segurança e produtividade,
+                                    especialmente diante do cenário  de calor extremo e ambientes confinado.
+                                    o desafio é mitigar tanto o calor radiante dos fornos quanto o estresse
+                                    térmico ambiental para prevenir doenças graves e acidentes.
+                                </p>
                             </div>
 
                         </div>
 
                     </div>
 
+                </div>
+
+            </section>
+
+            <section id="experiencia" className="relative
+            left-1/2 right-1/2
+            -ml-[50vw] -mr-[50vw]
+            w-screen
+            mt-6
+            py-20
+            bg-white text-gray-900
+            overflow-hidden"
+            >
+
+                <div className="container mx-auto max-w-5xl">
+                    <h2 className="text-5xl md:text-6xl font-bold mb-12 text-center">
+                        Pós-Cura <span className="text-blue-700"> Controlada</span>
+                    </h2>
+
+                    <p className="text-foreground leading-relaxed text-lg md:text-xl max-w-3xl mx-auto text-center">
+                        A pós-cura é o processo de aquecimento controlado de um material compósito (fibra + resina)
+                        realizado após a cura inicial. Ela serve para maximizar as propriedades mecânicas e a estabilidade
+                        térmica do material.
+                    </p>
+
+                    <p className="text-foreground leading-relaxed text-lg md:text-xl max-w-3xl mx-auto mt-4 text-center">
+                        Em 2025, com a evolução dos polímeros de alto desempenho, a pós-cura é considerada
+                        uma etapa obrigatória para componentes de engenharia (aeroespacial, automotivo e industrial).
+                    </p>
+
+                    <h3 className="text-3xl md:text-4xl font-bold mt-6">
+                        Para quer serve a <span className="text-blue-700">Pós-Cura?</span>
+                    </h3>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 mb-10 w-full">
+                        <a
+                            className="group relative bg-gradient-to-br from-blue-300 to-blue-600
+                                hover:from-blue-600 hover:to-blue-500 text-white p-8 rounded-2xl 
+                                shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105
+                                cursor-pointer"
+                        >
+                            <div className="flex flex-col items-center text-center space-y-4">
+                                <div>
+
+                                </div>
+                                <div>
+                                    <p className="text-white/90 font-medium text-lg text-left">
+                                        Aumento da Tg (Temperatura de Transição Vítrea):
+                                        Eleva o ponto em que a resina começa a amolecer.
+                                        Sem pós-cura, uma peça pode deformar ao ser exposta ao sol ou ao calor de motores
+                                    </p>
+                                </div>
+
+                            </div>
+                        </a>
+
+                        <a
+                            className="group relative bg-gradient-to-br from-blue-300 to-blue-600
+                                hover:from-blue-600 hover:to-blue-500 text-white p-8 rounded-2xl 
+                                shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105
+                                cursor-pointer"
+                        >
+                            <div className="flex flex-col items-center text-center space-y-4">
+                                <div>
+
+                                </div>
+                                <div>
+                                    <p className="text-white/90 font-medium text-lg text-left">
+                                        Conclusão da Reação Química: Garante que 100% das
+                                        moléculas da resina se conectem (reticulação),
+                                        eliminando partes "moles" ou pegajosas no interior do laminado
+                                    </p>
+                                </div>
+
+                            </div>
+                        </a>
+
+                        <a
+                            className="group relative bg-gradient-to-br from-blue-300 to-blue-600
+                                hover:from-blue-600 hover:to-blue-500 text-white p-8 rounded-2xl 
+                                shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105
+                                cursor-pointer"
+                        >
+                            <div className="flex flex-col items-center text-center space-y-4">
+                                <div>
+
+                                </div>
+                                <div>
+                                    <p className="text-white/90 font-medium text-lg text-left">
+                                        Melhoria Mecânica: Aumenta a resistência à tração, 
+                                        compressão e impacto, pois a estrutura molecular 
+                                        torna-se mais rígida e estável.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
             </section>

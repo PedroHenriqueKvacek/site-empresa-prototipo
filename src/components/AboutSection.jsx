@@ -21,10 +21,9 @@ export const AboutSection = () => {
                         </p>
 
                         <p className="text-foreground max-w-prose mx-0 md:mx-0 leading-relaxed text-left text-lg md:text-xl">
-                            Com ampla experiência técnica e compromisso com a inovação, a WM alia tecnologia,
-                            engenharia especializada e equipamentos de alta performance para garantir resultados
-                            consistentes e duradouros. Nossos projetos são elaborados de forma a otimizar o desempenho térmico,
-                            reduzir custos operacionais e aumentar a segurança e a vida útil dos equipamentos.
+                            Com ampla experiência técnica e compromisso com a inovação, a WM alia tecnologia, mão-de-obra  especializada
+                            e equipamentos de alta performance para garantir um ciclo térmico conforme curva característica do material tratado.
+                            Nossos projetos são elaborados de forma a homogeneizar  o desempenho térmico, reduzir custos operacionais.
                         </p>
 
                     </div>
@@ -33,15 +32,15 @@ export const AboutSection = () => {
                         {/* Missão */}
                         <div
                             className="group relative
-        bg-gradient-to-br from-blue-300 to-blue-600
-        hover:from-blue-600 hover:to-blue-500
-        text-white
-        p-6
-        rounded-2xl
-        shadow-lg hover:shadow-2xl
-        transition-all duration-300
-        hover:scale-105
-        cursor-pointer"
+                            bg-gradient-to-br from-blue-300 to-blue-600
+                            hover:from-blue-600 hover:to-blue-500
+                            text-white
+                            p-6
+                            rounded-2xl
+                            shadow-lg hover:shadow-2xl
+                            transition-all duration-300
+                            hover:scale-105
+                            cursor-pointer"
                         >
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
@@ -51,8 +50,8 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-bold text-lg md:text-xl mb-2">Missão</h4>
                                     <p className="text-white/90 text-base md:text-lg leading-relaxed">
-                                        Desenvolver e fornecer soluções de aquecimento controlado em
-                                        materiais refratários, com excelência técnica e compromisso com a qualidade,
+                                        Desenvolver e fornecer soluções de tratamento térmico em
+                                        materiais refratários e assemelhados, com excelência técnica e compromisso com a qualidade,
                                         contribuindo para o aumento da produtividade e segurança dos processos industriais.
                                     </p>
                                 </div>
@@ -62,15 +61,15 @@ export const AboutSection = () => {
                         {/* Visão */}
                         <div
                             className="group relative
-        bg-gradient-to-br from-blue-300 to-blue-600
-        hover:from-blue-600 hover:to-blue-500
-        text-white
-        p-6
-        rounded-2xl
-        shadow-lg hover:shadow-2xl
-        transition-all duration-300
-        hover:scale-105
-        cursor-pointer"
+                            bg-gradient-to-br from-blue-300 to-blue-600
+                            hover:from-blue-600 hover:to-blue-500
+                            text-white
+                            p-6
+                            rounded-2xl
+                            shadow-lg hover:shadow-2xl
+                            transition-all duration-300
+                            hover:scale-105
+                            cursor-pointer"
                         >
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
@@ -80,7 +79,7 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-bold text-lg md:text-xl mb-2">Visão</h4>
                                     <p className="text-white/90 text-base md:text-lg leading-relaxed">
-                                        Ser referência nacional em engenharia térmica e soluções industriais
+                                        Ser referência nacional em tratamento térmica e soluções industriais
                                         personalizadas, reconhecida pela confiabilidade, inovação e resultados
                                         de alto desempenho.
                                     </p>
@@ -91,15 +90,15 @@ export const AboutSection = () => {
                         {/* Valores */}
                         <div
                             className="group relative
-        bg-gradient-to-br from-blue-300 to-blue-600
-        hover:from-blue-600 hover:to-blue-500
-        text-white
-        p-6
-        rounded-2xl
-        shadow-lg hover:shadow-2xl
-        transition-all duration-300
-        hover:scale-105
-        cursor-pointer"
+                            bg-gradient-to-br from-blue-300 to-blue-600
+                            hover:from-blue-600 hover:to-blue-500
+                            text-white
+                            p-6
+                            rounded-2xl
+                            shadow-lg hover:shadow-2xl
+                            transition-all duration-300
+                            hover:scale-105
+                            cursor-pointer"
                         >
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
