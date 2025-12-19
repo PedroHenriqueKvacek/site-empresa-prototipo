@@ -84,7 +84,8 @@ export const ServicesSection = () => {
             w-screen
             mt-24
             py-20
-            bg-white text-gray-900
+            bg-gradient-to-br from-blue-600 to-blue-800
+          text-white
             overflow-hidden">
 
                 <div className="absolute inset-0 opacity-10">
@@ -102,7 +103,7 @@ export const ServicesSection = () => {
                             whitespace-normal md:whitespace-nowrap
                         ">
                                 Tratamento Térmico{" "}
-                                <span className="block md:inline text-blue-700">
+                                <span className="block md:inline text-white">
                                     Especializado
                                 </span>
                             </h2>
@@ -216,7 +217,7 @@ export const ServicesSection = () => {
                             </div>
                             <div className="flex justify-center text-center gap-2">
                                 <h3 className="text-3xl md:text-4xl font-bold">
-                                    Conforto <span className="text-blue-700">Térmico</span>
+                                    Conforto <span className="text-white">Térmico</span>
                                 </h3>
 
                             </div>
@@ -249,14 +250,15 @@ export const ServicesSection = () => {
 
             </section>
 
-            <section id="experiencia" className="relative
-            left-1/2 right-1/2
-            -ml-[50vw] -mr-[50vw]
-            w-screen
-            mt-6
-            py-20
-            bg-white text-gray-900
-            overflow-hidden"
+            <section id="experiencia"
+                className="relative
+                left-1/2 right-1/2
+                -ml-[50vw] -mr-[50vw]
+                w-screen
+                mt-6
+                py-20
+                bg-white text-gray-900
+                overflow-hidden"
             >
 
                 <div className="container mx-auto max-w-5xl">
@@ -264,16 +266,28 @@ export const ServicesSection = () => {
                         Pós-Cura <span className="text-blue-700"> Controlada</span>
                     </h2>
 
-                    <p className="text-foreground leading-relaxed text-lg md:text-xl max-w-3xl mx-auto text-center">
-                        A pós-cura é o processo de aquecimento controlado de um material compósito (fibra + resina)
-                        realizado após a cura inicial. Ela serve para maximizar as propriedades mecânicas e a estabilidade
-                        térmica do material.
-                    </p>
+                    <div className="group relative
+                            bg-gradient-to-br from-blue-300 to-blue-600
+                            hover:from-blue-600 hover:to-blue-500
+                            text-white
+                            p-8 md:p-12
+                            rounded-2xl
+                            shadow-lg hover:shadow-2xl
+                            transition-all duration-300
+                            hover:scale-[1.02]">
+                        <p className="text-white leading-relaxed text-lg md:text-xl max-w-3xl mx-auto text-center">
+                            A pós-cura é o processo de aquecimento controlado de um material compósito (fibra + resina)
+                            realizado após a cura inicial. Ela serve para maximizar as propriedades mecânicas e a estabilidade
+                            térmica do material.
+                        </p>
 
-                    <p className="text-foreground leading-relaxed text-lg md:text-xl max-w-3xl mx-auto mt-4 text-center">
-                        Em 2025, com a evolução dos polímeros de alto desempenho, a pós-cura é considerada
-                        uma etapa obrigatória para componentes de engenharia (aeroespacial, automotivo e industrial).
-                    </p>
+                        <p className="text-white leading-relaxed text-lg md:text-xl max-w-3xl mx-auto mt-4 text-center">
+                            Em 2025, com a evolução dos polímeros de alto desempenho, a pós-cura é considerada
+                            uma etapa obrigatória para componentes de engenharia (aeroespacial, automotivo e industrial).
+                        </p>
+                    </div>
+
+
 
                     <h3 className="text-3xl md:text-4xl font-bold mt-6">
                         Para quer serve a <span className="text-blue-700">Pós-Cura?</span>
@@ -334,8 +348,8 @@ export const ServicesSection = () => {
                                 </div>
                                 <div>
                                     <p className="text-white/90 font-medium text-lg text-left">
-                                        Melhoria Mecânica: Aumenta a resistência à tração, 
-                                        compressão e impacto, pois a estrutura molecular 
+                                        Melhoria Mecânica: Aumenta a resistência à tração,
+                                        compressão e impacto, pois a estrutura molecular
                                         torna-se mais rígida e estável.
                                     </p>
                                 </div>

@@ -50,9 +50,12 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-bold text-lg md:text-xl mb-2">Missão</h4>
                                     <p className="text-white/90 text-base md:text-lg leading-relaxed">
-                                        Desenvolver e fornecer soluções de tratamento térmico em
-                                        materiais refratários e assemelhados, com excelência técnica e compromisso com a qualidade,
-                                        contribuindo para o aumento da produtividade e segurança dos processos industriais.
+                                        Desenvolver, implementar e fornecer soluções completas em tratamento
+                                        térmico e aplicação de materiais refratários, com alto rigor técnico,
+                                        foco em segurança operacional e excelência em desempenho.
+                                        Atuamos para otimizar processos industriais, aumentar a produtividade,
+                                        reduzir riscos e agregar valor sustentável aos nossos clientes,
+                                        sempre com compromisso com a qualidade e a confiabilidade dos resultados.
                                     </p>
                                 </div>
                             </div>
@@ -79,9 +82,11 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-bold text-lg md:text-xl mb-2">Visão</h4>
                                     <p className="text-white/90 text-base md:text-lg leading-relaxed">
-                                        Ser referência nacional em tratamento térmica e soluções industriais
-                                        personalizadas, reconhecida pela confiabilidade, inovação e resultados
-                                        de alto desempenho.
+                                        Ser reconhecida como referência nacional em soluções industriais de tratamento
+                                        térmico e refratários, destacando-se pela inovação técnica, confiabilidade operacional
+                                        e entrega de resultados consistentes. Buscamos crescimento sustentável,
+                                        expansão de mercado e construção de parcerias estratégicas de longo prazo,
+                                        mantendo-nos na vanguarda das melhores práticas do setor industrial.
                                     </p>
                                 </div>
                             </div>
@@ -109,22 +114,28 @@ export const AboutSection = () => {
                                     <h4 className="font-bold text-lg md:text-xl mb-2">Valores</h4>
 
                                     <p className="text-white/90">
-                                        <span className="font-semibold text-white">Inovação:</span> buscamos continuamente novas tecnologias.
+                                        <span className="font-semibold text-white">Inovação:</span> Investimos continuamente em tecnologia,
+                                        processos e conhecimento técnico para oferecer soluções atualizadas, eficientes e alinhadas às demandas do mercado industrial.
                                     </p>
                                     <p className="text-white/90">
-                                        <span className="font-semibold text-white">Qualidade:</span> alto padrão técnico em cada projeto.
+                                        <span className="font-semibold text-white">Qualidade:</span> Atuamos com alto padrão de execução,
+                                        rigor técnico e atenção aos detalhes em todas as etapas dos projetos, garantindo segurança, eficiência e desempenho superior.
                                     </p>
                                     <p className="text-white/90">
-                                        <span className="font-semibold text-white">Comprometimento:</span> soluções eficazes e seguras.
+                                        <span className="font-semibold text-white">Comprometimento:</span> Assumimos responsabilidade
+                                        total pelas soluções entregues, priorizando eficácia, confiabilidade e satisfação do cliente.
                                     </p>
                                     <p className="text-white/90">
-                                        <span className="font-semibold text-white">Ética e Transparência:</span> responsabilidade em todas as relações.
+                                        <span className="font-semibold text-white">Ética e Transparência:</span> Conduzimos nossos negócios com integridade,
+                                        clareza e responsabilidade, construindo relações baseadas na confiança mútua.
                                     </p>
                                     <p className="text-white/90">
-                                        <span className="font-semibold text-white">Sustentabilidade:</span> redução de impactos e otimização energética.
+                                        <span className="font-semibold text-white">Sustentabilidade:</span> Buscamos reduzir impactos ambientais, otimizar o
+                                        uso de energia e promover práticas responsáveis que contribuam para a eficiência e longevidade dos processos industriais.
                                     </p>
                                     <p className="text-white/90">
-                                        <span className="font-semibold text-white">Parceria:</span> relações duradouras.
+                                        <span className="font-semibold text-white">Parceria:</span> Valorizamos relações duradouras com clientes, fornecedores
+                                        e colaboradores, atuando de forma colaborativa para alcançar resultados sólidos e contínuos.
                                     </p>
                                 </div>
                             </div>
