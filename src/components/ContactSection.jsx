@@ -44,6 +44,36 @@ export const ContactSection = () => {
                         </div>
                     </a>
 
+                    <a
+                        href="https://wa.me/5511982742628"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group relative bg-gradient-to-br from-blue-300 to-blue-600
+                         hover:from-blue-600 hover:to-blue-500 text-white p-8 rounded-2xl 
+                          shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105
+                          cursor-pointer"
+                    >
+                        <div className="flex flex-col items-center text-center space-y-4">
+                            <div className="p-4 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
+                                <Phone className="h-8 w-8" />
+                            </div>
+
+                            <div>
+                                <h3 className="font-bold text-xl mb-1">WhatsApp</h3>
+                                <p className="text-white/90 font-medium text-lg">
+                                    +55 (11) 98274-2628
+                                </p>
+                                <p className="text-white/80 text-sm mt-1">
+                                    Wellington S. Santos
+                                </p>
+                                <p className="text-white/80 text-sm mt-2">
+                                    Clique para conversar
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+
                     {/* Email Button */}
                     <a
                         href="mailto:laiyssa.comercial@wmsolucoesindustrial.com.br"
@@ -65,6 +95,31 @@ export const ContactSection = () => {
                             </div>
                         </div>
                     </a>
+
+                    <a
+                        href="mailto:wm@wmsolucoesindustrial.com.br"
+                        className="group relative bg-gradient-to-br from-blue-300 to-blue-600
+                        hover:from-blue-600 hover:to-blue-500 text-white p-6 md:p-8 
+                        rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 
+                        hover:scale-105 cursor-pointer w-full max-w-sm mx-auto"
+                    >
+                        <div className="flex flex-col items-center text-center space-y-4">
+                            <div className="p-4 rounded-full bg-white/20 group-hover:bg-white/30 transition-colors">
+                                <Mail className="h-8 w-8" />
+                            </div>
+
+                            <div className="w-full">
+                                <h3 className="font-bold text-xl mb-2">E-mail</h3>
+                                <p className="text-white/90 font-medium text-sm md:text-base break-all">
+                                    wm@wmsolucoesindustrial.com.br
+                                </p>
+                                <p className="text-white/80 text-sm mt-2">
+                                    Clique para enviar e-mail
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
 
                     {/* Location Button */}
                     <a

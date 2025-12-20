@@ -275,13 +275,13 @@ export const ServicesSection = () => {
                             shadow-lg hover:shadow-2xl
                             transition-all duration-300
                             hover:scale-[1.02]">
-                        <p className="text-white leading-relaxed text-lg md:text-xl max-w-3xl mx-auto text-center">
+                        <p className="text-white leading-relaxed text-lg md:text-xl max-w-3xl mx-auto text-left">
                             A pós-cura é o processo de aquecimento controlado de um material compósito (fibra + resina)
                             realizado após a cura inicial. Ela serve para maximizar as propriedades mecânicas e a estabilidade
                             térmica do material.
                         </p>
 
-                        <p className="text-white leading-relaxed text-lg md:text-xl max-w-3xl mx-auto mt-4 text-center">
+                        <p className="text-white leading-relaxed text-lg md:text-xl max-w-3xl mx-auto mt-4 text-left">
                             Em 2025, com a evolução dos polímeros de alto desempenho, a pós-cura é considerada
                             uma etapa obrigatória para componentes de engenharia (aeroespacial, automotivo e industrial).
                         </p>
