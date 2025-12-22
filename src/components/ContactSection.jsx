@@ -37,7 +37,9 @@ export const ContactSection = () => {
                             </div>
                             <div>
                                 <h3 className="font-bols text-xl mb-2">WhatsApp</h3>
-                                <p className="text-white/90 font-medium text-lg">+55 (12) 99233-8065</p>
+                                <p className="text-white/90 font-medium text-lg">+55 (12) 99233-8065</p> <p className="text-white/80 text-sm mt-1">
+                                    Laiyssa Lopes
+                                </p>
                                 <p className="text-white/80 text-sm mt-2">Clique para conversar</p>
                             </div>
 

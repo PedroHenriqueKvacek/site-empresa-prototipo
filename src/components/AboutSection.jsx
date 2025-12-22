@@ -28,6 +28,7 @@ export const AboutSection = () => {
 
                     </div>
 
+
                     <div className="grid grid-cols-1 gap-6">
                         {/* Missão */}
                         <div
@@ -89,6 +90,8 @@ export const AboutSection = () => {
                                 </div>
                             </div>
                         </div>
+
+                        
 
                         {/* Valores */}
                         <div

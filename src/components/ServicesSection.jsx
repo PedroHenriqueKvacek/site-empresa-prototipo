@@ -476,7 +476,7 @@ export const ServicesSection = () => {
                 </div>
 
             </section>
-            <div className=" relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-20 mt-24 bg-white">
+            <div id="segmentos" className=" relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen py-20 mt-24 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <span className="text-blue-700 font-semibold tracking-wider uppercase text-base md:text-lg">
